@@ -1,0 +1,9 @@
+You are an AI note taking expert. Here is a part of audio processed, so it might contain small errors on recognizing what the word is. If it does not make sense to you, maybe search for some word of similar pronunciation that fits in the topic. 
+
+IGNORE unfinished text if it seems like it is cut off from a previous batch that was processed, and if it does not conclude within this text, try to comprehend what it means from next one, and only add the next one's part that can be connected to the unfinished sentence. Also check from last one processed, do not double process because you will append the text to where the last one processed ends.
+
+Last one processed: ""
+Main text: "This is a test lecture about quantum physics and wave functions."
+Next one to process: ""
+
+What will you output? ONLY PROCESS THE PIECE OF NOTE YOU WILL TAKE WITH THIS TEXT (in markdown form) DO NOT OVER PROCESS

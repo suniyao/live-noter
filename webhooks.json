@@ -1,0 +1,3251 @@
+[
+  {
+    "id": "1762107085471-2ki71f1x7",
+    "text": "Test webhook message",
+    "receivedAt": "2025-11-02T18:11:25.471Z"
+  },
+  {
+    "id": "1762107106552-cujtwbq4k",
+    "text": "Test through ngrok",
+    "receivedAt": "2025-11-02T18:11:46.552Z"
+  },
+  {
+    "id": "1762107501098-hmbnfvk9t",
+    "text": "test message",
+    "receivedAt": "2025-11-02T18:18:21.098Z"
+  },
+  {
+    "id": "1762107507437-0iudabqyh",
+    "text": "plain text message",
+    "receivedAt": "2025-11-02T18:18:27.437Z"
+  },
+  {
+    "id": "1762107566846-xvft5s7gj",
+    "text": "test with message property",
+    "receivedAt": "2025-11-02T18:19:26.846Z"
+  },
+  {
+    "id": "1762107571133-pfma4ifd9",
+    "text": "test with content property",
+    "receivedAt": "2025-11-02T18:19:31.133Z"
+  },
+  {
+    "id": "1762107578129-24jcc2q8g",
+    "text": "test with transcript property",
+    "receivedAt": "2025-11-02T18:19:38.129Z"
+  },
+  {
+    "id": "1762107586105-ch0jikf4y",
+    "text": "{\"randomProperty\":\"test with unknown property\"}",
+    "receivedAt": "2025-11-02T18:19:46.105Z"
+  },
+  {
+    "id": "1762107836282-x6bl7f0ue",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"10f1a53a-dfef-4eb5-af28-1c66053c5c5b\",\"text\":\"Sending your transcript files here, I don't\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":0,\"end\":2,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:23:56.282Z"
+  },
+  {
+    "id": "1762107838528-6enc6joib",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"c24e5a75-929d-4c63-b146-fc341ca43bde\",\"text\":\"I want to see\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":2.7199999999998,\"end\":3.7600000000002183,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:23:58.529Z"
+  },
+  {
+    "id": "1762107877659-wyprov16e",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"d829ffdf-76c4-473d-b11d-ed3f4771c310\",\"text\":\"Okay. That's fine.\",\"speaker\":\"SPEAKER_2\",\"speaker_id\":2,\"is_user\":false,\"person_id\":null,\"start\":10.300000000000182,\"end\":11.339800000000196,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:24:37.659Z"
+  },
+  {
+    "id": "1762107994294-49gbb3y61",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"1c22d59f-bf7c-4e2c-8f59-6bfdaf074b64\",\"text\":\"I am not quite sure. I think this is\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":158.0300000000002,\"end\":160.26999999999998,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:26:34.294Z"
+  },
+  {
+    "id": "1762107997563-yj23anyj1",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"b84567da-dec3-4dff-872a-9a5460f5e92c\",\"text\":\"working.\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":160.9101999999998,\"end\":161.55000000000018,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:26:37.563Z"
+  },
+  {
+    "id": "1762108015474-ybnc7gdb8",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"b9638258-3f94-4985-9a4a-b341d5c49c5f\",\"text\":\"Surfer initialized or visited?\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":177.59990000000016,\"end\":179.59990000000016,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:26:55.474Z"
+  },
+  {
+    "id": "1762108038984-h8c4gk7u8",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"8c2480f9-2db2-4c24-be22-a363aff95dd1\",\"text\":\"I want the hook.\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":202.69999999999982,\"end\":204.13999999999987,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:27:18.984Z"
+  },
+  {
+    "id": "1762108102417-koixbff2l",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"23ea4a05-7732-4688-b1c9-0d23ef7491ea\",\"text\":\"Okay.\",\"speaker\":\"SPEAKER_3\",\"speaker_id\":3,\"is_user\":false,\"person_id\":null,\"start\":232.30999999999995,\"end\":232.7102,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:28:22.417Z"
+  },
+  {
+    "id": "1762108103359-9ofiuhxxe",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"811bbb99-bbed-475d-8b91-94f8a1c56783\",\"text\":\"Processor. Processor dot JSON file.\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":235.51999999999998,\"end\":238.23999999999978,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:28:23.359Z"
+  },
+  {
+    "id": "1762108106163-760txsmxt",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"301bac5d-6981-46b1-a61d-d7fe4ccd3953\",\"text\":\"Okay.\",\"speaker\":\"SPEAKER_2\",\"speaker_id\":2,\"is_user\":false,\"person_id\":null,\"start\":251.67999999999984,\"end\":252.3198000000002,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:28:26.163Z"
+  },
+  {
+    "id": "1762108107197-lfs7xabru",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"fe174554-6235-425f-939d-f50653848abc\",\"text\":\"Oh, yes. Start testing.\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":256.03999999999996,\"end\":257.40009999999984,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:28:27.197Z"
+  },
+  {
+    "id": "1762108108258-3mgbtsqi2",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"0edb1ce5-be21-4326-9279-9e3bb09eae87\",\"text\":\"Assume that there exists\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":262.6700000000001,\"end\":263.9499999999998,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:28:28.258Z"
+  },
+  {
+    "id": "1762108109299-bqmhiz565",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"09e19772-2066-4b77-a91d-f13ae63a8aa5\",\"text\":\"of open for all cause.\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":264.9200000000001,\"end\":266.44000000000005,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:28:29.299Z"
+  },
+  {
+    "id": "1762108146460-q8twh1fge",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"ef8bee76-1bc1-49a3-8d26-80d1ab658150\",\"text\":\"Be with the the instance on\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":266.7800000000002,\"end\":270.38009999999986,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:29:06.460Z"
+  },
+  {
+    "id": "1762108151177-2zqao4cpb",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"c4d5646a-b5e6-4bf9-b1b8-97c59f2c445d\",\"text\":\"But your sentence is just still double checking\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":314,\"end\":316.48,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:29:11.177Z"
+  },
+  {
+    "id": "1762108153944-824czuu5g",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"8e48ea5d-9d97-49aa-8485-1849b86eabf1\",\"text\":\"if the topic's gonna show up on the exam.\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":317.0598,\"end\":320.4200000000001,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:29:13.944Z"
+  },
+  {
+    "id": "1762108172028-dey2mk9h8",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"7db5d318-5bce-431d-982b-96c223567c9d\",\"text\":\"Do you want me to help you phrase that?\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":333.8598999999999,\"end\":336.9000000000001,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:29:32.028Z"
+  },
+  {
+    "id": "1762108174043-6biwu6zle",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"7471080d-c41f-42c3-83a5-e212f2bc9068\",\"text\":\"More clearly or casually?\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":337.8000000000002,\"end\":339.8000000000002,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:29:34.043Z"
+  },
+  {
+    "id": "1762108196631-gp0txpsqp",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"97337d8a-32e6-4146-a190-0a8a67c43828\",\"text\":\"Eigen value exam questions. So Eigen value is\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":286.15009999999984,\"end\":288.63009999999986,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:29:56.631Z"
+  },
+  {
+    "id": "1762108197719-05wswtwkg",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"43bce680-10ef-4234-be93-be492dc6671f\",\"text\":\"special numbers associated with the matrix. They scale eigenvalue.\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":289.1300000000001,\"end\":292.59666666666675,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:29:57.719Z"
+  },
+  {
+    "id": "1762108198438-ibb84k9ys",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"3738abbb-8734-4510-9c71-694ea7add533\",\"text\":\"An eigenvector\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":293.7399999999998,\"end\":294.7800000000002,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:29:58.438Z"
+  },
+  {
+    "id": "1762108211774-sdoo31ulo",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"1165e7a6-95e8-407f-b0fb-3da4f1ad8aad\",\"text\":\"are directions that stays the same when the matrix\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":296.53999999999996,\"end\":299.98,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:30:11.774Z"
+  },
+  {
+    "id": "1762108212607-k9xnqkxw9",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"587daf59-0102-4b05-829f-251fc62956de\",\"text\":\"is applied.\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":300.5500000000002,\"end\":301.1100000000001,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:30:12.607Z"
+  },
+  {
+    "id": "1762108595166-cejex51sn",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"0851ea39-6895-45d5-8ae3-b4f1b3434aa3\",\"text\":\"Okay. So today, I'll be start talking about\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":0,\"end\":2.6399999999999997,\"translations\":[],\"speech_profile_processed\":true},{\"id\":\"a3b764e3-78ef-4d00-8ff5-457e97054d92\",\"text\":\"a concept and analysis.\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":3.7800000000000002,\"end\":5.059999500000001,\"translations\":[],\"speech_profile_processed\":true},{\"id\":\"f038de90-1d67-496a-a05d-6c61e307e303\",\"text\":\"That is related to all the different things.\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":5.920000000000001,\"end\":8.96,\"translations\":[],\"speech_profile_processed\":true},{\"id\":\"64505572-3a0e-4758-b12a-f0dd00af8421\",\"text\":\"We know that\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":11.070001000000001,\"end\":11.95,\"translations\":[],\"speech_profile_processed\":true},{\"id\":\"ed144094-a5c0-47fa-965b-d2d32187acef\",\"text\":\"their existing open ball, BRX,\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":12.8,\"end\":15.600000999999999,\"translations\":[],\"speech_profile_processed\":true},{\"id\":\"ae5c9319-3222-4017-a7e7-ac4e1df4c585\",\"text\":\"which exists the center, and r is the radius\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":16.169999999999998,\"end\":19.13,\"translations\":[],\"speech_profile_processed\":true},{\"id\":\"1aac5c6e-47b4-4904-b0af-3409ff3498b1\",\"text\":\"And we know that given the\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":31.85,\"end\":33.29,\"translations\":[],\"speech_profile_processed\":true},{\"id\":\"68855eb8-9ff7-417c-a961-24da40c147de\",\"text\":\"radius and the center,\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":34.31,\"end\":36.550002,\"translations\":[],\"speech_profile_processed\":true},{\"id\":\"7c4e7d42-4b1a-4ce6-bff7-066f3bdb1581\",\"text\":\"like, what we can do is that\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":37.390002,\"end\":39.710001999999996,\"translations\":[],\"speech_profile_processed\":true},{\"id\":\"8af3d0b6-8880-4b2e-b81c-d980093ee186\",\"text\":\"we can let the other person get\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":40.949999999999996,\"end\":43.83,\"translations\":[],\"speech_profile_processed\":true},{\"id\":\"d1777548-ad00-42ec-87f3-59e6efd5393a\",\"text\":\"free or whatever things.\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":44.67,\"end\":45.869998,\"translations\":[],\"speech_profile_processed\":true},{\"id\":\"bc01bf05-c69b-49b0-b721-c80300fc8ebd\",\"text\":\"And\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":47.16,\"end\":47.4,\"translations\":[],\"speech_profile_processed\":true},{\"id\":\"52935e4c-17a6-48a0-8803-e1af0811aecb\",\"text\":\"low key wise, my server running, but not really,\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":49.17,\"end\":52.210001999999996,\"translations\":[],\"speech_profile_processed\":true},{\"id\":\"eee6fc57-d594-44fc-a8d8-e3d4ba630135\",\"text\":\"sending things here. I don't really know why.\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":55.63,\"end\":57.89844444444444,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:36:35.166Z"
+  },
+  {
+    "id": "1762108661654-hl5rg6jd0",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"67cdbe3a-b115-42f1-942a-66855c412dc5\",\"text\":\"You.\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":158.29,\"end\":158.60999999999999,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:37:41.654Z"
+  },
+  {
+    "id": "1762108711209-yn8ivx3y0",
+    "text": "Test webhook",
+    "receivedAt": "2025-11-02T18:38:31.209Z"
+  },
+  {
+    "id": "1762108902765-ius6210mz",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"3c07998c-e86a-40a1-bd23-35bbedc910be\",\"text\":\"We want you describe what volume\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":0,\"end\":2.920000000000016,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:41:42.765Z"
+  },
+  {
+    "id": "1762108904918-1ehkutaah",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"a5ecffe6-a8ba-4c19-b315-04b53ed35188\",\"text\":\"function approaches.\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":3.670000000000016,\"end\":4.949999999999989,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:41:44.918Z"
+  },
+  {
+    "id": "1762108914866-4y1vecnj0",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"4f759d33-9baf-4f8f-bcd7-f62b9b77d37f\",\"text\":\"As the input gets closer and closer to some point.\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":10.849999999999966,\"end\":13.889999999999986,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:41:54.867Z"
+  },
+  {
+    "id": "1762108919257-o04bt4xsm",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"ce1f5385-4945-42df-929e-14e0beade4e2\",\"text\":\"But in real analysis, we may make that intuition completely rigorously.\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":15.549980000000005,\"end\":19.370000000000005,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:41:59.257Z"
+  },
+  {
+    "id": "1762108923969-evi3xo46v",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"202a28f1-87ab-421c-8800-b99d21c58177\",\"text\":\"We think that the limit of f of x as x approaches\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":20.310000000000002,\"end\":23.189999999999998,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:42:03.969Z"
+  },
+  {
+    "id": "1762108931240-2rrwenjhm",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"7e01add4-de75-4b1e-87a9-adc08777f382\",\"text\":\"a equals l for every epsilon greater than 0. There exists a delta greater than 0 except that whenever the distance between\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":23.69999999999999,\"end\":30.682295081967222,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:42:11.240Z"
+  },
+  {
+    "id": "1762108948743-1frhyac8w",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"87d84ad9-992c-4238-8e4b-fcb1a69a72d0\",\"text\":\"x and a is less than delta, the distance between f of x and l is less than epsilon. In plain English, that means we can make f of x as close to l as we want by taking x close enough to a. This definition may sound the abstract at first, but it's actually what makes calculus print\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":31.25999999999999,\"end\":48.52810714285712,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:42:28.743Z"
+  },
+  {
+    "id": "1762108953571-pus939mon",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"233c89e0-3d1c-44de-bbe9-57e7fa78e2f7\",\"text\":\"precise. It's what allows us to prove things like the continuity of a function,\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":48.94,\"end\":52.494430379746795,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:42:33.571Z"
+  },
+  {
+    "id": "1762108957759-y5rify6h6",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"899c38c4-e347-4c6d-a8d3-7a6929c58407\",\"text\":\"or the existence of derivatives without relying on graphs or intuition.\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":53.14999999999998,\"end\":56.90999999999997,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:42:37.759Z"
+  },
+  {
+    "id": "1762108969025-85wubhvbk",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"e17512f7-0c3c-4bdf-b81d-8e2fb2d0c393\",\"text\":\"For example, the function f of x equals x is continuous at every point because whenever x is near a, x squared is near a squared. You can make that\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":57.64999999999998,\"end\":67.57999999999998,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:42:49.025Z"
+  },
+  {
+    "id": "1762108970909-024j9iimo",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"498f917c-2316-4c4f-8c75-da421755c2cf\",\"text\":\"formal using the absolute delta definition we just discussed.\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":68.19,\"end\":71.46999999999997,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:42:50.909Z"
+  },
+  {
+    "id": "1762108975775-q5djxto1b",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"6cc2df13-fc9a-4565-97ac-1e1828da91df\",\"text\":\"So, yeah, limits are foundations of real analysis and undertains\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":72.20999999999998,\"end\":75.57,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:42:55.775Z"
+  },
+  {
+    "id": "1762108980328-lr77nj5mz",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"02140fb3-b994-4888-ad57-38987e7175f3\",\"text\":\"means you are really understanding how math defies closeness,\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":76.95999999999998,\"end\":80.16001999999997,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:43:00.328Z"
+  },
+  {
+    "id": "1762108982337-oxythxuuj",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"2a5cc0f6-e092-4bbe-bb25-96863e9f6b37\",\"text\":\"in an exact logical way.\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":80.86000000000001,\"end\":82.29998,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:43:02.337Z"
+  },
+  {
+    "id": "1762109096535-4fulbwpmu",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"c734b3f1-ac7d-4365-9025-9f73cb5dfdc5\",\"text\":\"Okay.\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":195.11003,\"end\":195.82999999999998,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:44:56.535Z"
+  },
+  {
+    "id": "1762109099741-zc9n9pwwo",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"ca6a2d16-00dc-4370-8f80-f8230691a0b3\",\"text\":\"Wait. It gives all the undefined.\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":197.48999999999995,\"end\":199.17002999999994,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:44:59.741Z"
+  },
+  {
+    "id": "1762109103664-e7q2awjpx",
+    "text": "{\"session_id\":\"OChSFtfA6UNlOItVpS7VLlNHfJ73\",\"segments\":[{\"id\":\"d7ed2de2-9583-42de-88a5-5502cd6df6ee\",\"text\":\"Also, it's set undefined. Why is it like this?\",\"speaker\":\"SPEAKER_0\",\"speaker_id\":0,\"is_user\":false,\"person_id\":null,\"start\":200.62003999999996,\"end\":202.86003,\"translations\":[],\"speech_profile_processed\":true}]}",
+    "receivedAt": "2025-11-02T18:45:03.664Z"
+  },
+  {
+    "id": "1762109421967-waghm5ud8",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "3c1d65b8-3f2b-4f63-9838-fe87572999dd",
+          "text": "Testing. Testing. I would like to make the test again.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 0,
+          "end": 3.5199499999999944,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:50:21.967Z"
+  },
+  {
+    "id": "1762109426894-aljhuz7dv",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "0ce6e72b-d938-4d44-ba92-5dd56c7418a4",
+          "text": "The definition might sound abstract at first.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 6.32000000000005,
+          "end": 9.43999999999994,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:50:26.894Z"
+  },
+  {
+    "id": "1762109433718-1xzimmwxx",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "99544f84-bd68-4844-b4a6-4100c37ed81d",
+          "text": "Yeah.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 13.330000000000041,
+          "end": 13.73004000000003,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:50:33.718Z"
+  },
+  {
+    "id": "1762109678182-7ppjfqssj",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "4169edd7-95d9-4f43-bbb7-ca93be444ddc",
+          "text": "Oh, wait. So now I would like the",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 0,
+          "end": 2.6399999999999864,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:54:38.182Z"
+  },
+  {
+    "id": "1762109681807-hkk2j0zos",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "27e806f2-771d-4f93-a0b1-e22bfda79d80",
+          "text": "webhook to start processing.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 3.6600099999999998,
+          "end": 5.020009999999985,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:54:41.807Z"
+  },
+  {
+    "id": "1762109686652-qoflvwub4",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "06caada9-8946-4013-85e1-5f35792bca4e",
+          "text": "Let me see.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 10.599999999999994,
+          "end": 11.560000000000002,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:54:46.652Z"
+  },
+  {
+    "id": "1762109708589-irf2hhepo",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "fc41c8d4-9dd2-4030-8f25-6c098455f705",
+          "text": "Couldn't connect to server is very strange.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 33.16999999999999,
+          "end": 35.16999999999999,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:55:08.589Z"
+  },
+  {
+    "id": "1762109714775-b5x06ukoj",
+    "data": {
+      "session_id": "test123",
+      "segments": [
+        {
+          "text": "This is a test lecture about quantum physics and wave functions.",
+          "speaker": "SPEAKER_0",
+          "start": 0,
+          "end": 5
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:55:14.775Z"
+  },
+  {
+    "id": "1762109715697-bn7ti1c5v",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "141dc35b-1a84-4de6-bf60-b29d05821e4f",
+          "text": "Okay. I think this should work now.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 39.51999999999998,
+          "end": 41.599999999999994,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:55:15.697Z"
+  },
+  {
+    "id": "1762109718508-0at6fcyr2",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "b1203d7c-6e5c-4d93-ae1a-b6b45137cb37",
+          "text": "It is working. Okay.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 43.47999999999999,
+          "end": 45.079999999999984,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:55:18.508Z"
+  },
+  {
+    "id": "1762109723506-pp958zwp6",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "0c4dac13-8861-440d-a51d-1d515835f82a",
+          "text": "Okay. It's working.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 48.57998999999998,
+          "end": 49.29998999999998,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:55:23.506Z"
+  },
+  {
+    "id": "1762109761854-f76slzlvg",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "bd707a4d-9190-4972-9ce3-24f7aeae2f4f",
+          "text": "Okay. Let me see. I'm not",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 69.72999999999999,
+          "end": 72.45000000000002,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:56:01.854Z"
+  },
+  {
+    "id": "1762109762632-0dxrqq9c1",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "5d4eac75-11d3-46fb-9101-206a753e40f2",
+          "text": "sure.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 73.17999999999998,
+          "end": 73.41999999999999,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:56:02.632Z"
+  },
+  {
+    "id": "1762109763674-tp7ffr6v0",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "e7531124-ad4e-4fd3-b196-b5d0b8c0353f",
+          "text": "Oh,",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 80.16,
+          "end": 80.72,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:56:03.674Z"
+  },
+  {
+    "id": "1762109811722-0s5k4bnwa",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "d4795add-be15-4a67-a1d7-496d69c6ee77",
+          "text": "1",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 107.70998,
+          "end": 108.18999999999997,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:56:51.722Z"
+  },
+  {
+    "id": "1762109833905-3pyps26qq",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "61bc61ca-7df6-44f7-a3e9-8c76b6d0d1b6",
+          "text": "Okay.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 159.19001999999998,
+          "end": 159.83,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:57:13.905Z"
+  },
+  {
+    "id": "1762109839735-zw3moc6nc",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "25e47239-5fb3-4eaf-af3c-49da5c1413ad",
+          "text": "I'm not quite sure if they received the API key or not.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 161.23,
+          "end": 165.23,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:57:19.735Z"
+  },
+  {
+    "id": "1762109842007-ifat1luc3",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "905f5a19-9772-4590-b81d-769f37b39def",
+          "text": "But now I'll start saying this thing.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 166.04999999999998,
+          "end": 168.68999999999997,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:57:22.007Z"
+  },
+  {
+    "id": "1762109851243-iqxjd0l15",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "b32b62e0-b545-4d43-a34b-cb2a37bf3047",
+          "text": "So we say that the limit of f of x as x approaches to 0",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 170.70000000000002,
+          "end": 177.67,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:57:31.243Z"
+  },
+  {
+    "id": "1762109856173-4lolewuoe",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "93bef139-567f-440e-8f81-772ee4779405",
+          "text": "there exists something called whatever we wanna take.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 179.27,
+          "end": 182.39000000000001,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:57:36.173Z"
+  },
+  {
+    "id": "1762109865877-0qzqzcrvr",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "1bb657c4-e9fc-4349-b4d1-9acceba91747",
+          "text": "There exists a delta greater than 0. That's that whenever the distance between x and a is less than delta, the distance between f",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 183.54999999999998,
+          "end": 191.99999999999997,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:57:45.877Z"
+  },
+  {
+    "id": "1762109870628-0rml7jb1z",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "954a15f7-40a4-469a-812b-48e503b1e55d",
+          "text": "of x and l is less than epsilon.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 193.03,
+          "end": 195.83,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:57:50.628Z"
+  },
+  {
+    "id": "1762109877261-fbdf1im91",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "a32ac12f-c515-49bc-9128-b3baec373b57",
+          "text": "In plain English, that means we can make f of x as close to l as we want by taking x close enough",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 196.80999999999997,
+          "end": 202.85002999999998,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:57:57.261Z"
+  },
+  {
+    "id": "1762109881418-wggla8kxc",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "cc2b56b7-8389-4b42-8917-adc1dacfc1f9",
+          "text": "to a. This definition might sound abstract at first, it's actually what makes",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 203.42,
+          "end": 206.81532467532466,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:58:01.418Z"
+  },
+  {
+    "id": "1762109885437-r84v5f3so",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "2b17d106-9598-439a-84ee-93705e45bf07",
+          "text": "calculus precise. It's what allows us to prove the",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 207.4,
+          "end": 211.24159999999998,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:58:05.437Z"
+  },
+  {
+    "id": "1762109890159-uqudwjbw2",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "c93034b2-37ee-4e4d-a8ac-fe95bbd8f51f",
+          "text": "things like the continuity of a function or the existence of the",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 211.70000000000002,
+          "end": 214.42,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:58:10.159Z"
+  },
+  {
+    "id": "1762109892399-2t11a7esp",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "df3ed394-0903-4d21-83cd-e8fb0365d983",
+          "text": "without relying on graph that or intuition.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 214.81001999999998,
+          "end": 217.36999999999998,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T18:58:12.399Z"
+  },
+  {
+    "id": "1762110185147-9hku047kl",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "bf6be712-d2e3-4010-a40d-8865a51d1386",
+          "text": "Alright.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 0,
+          "end": 0.6399999999999997,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "9fb76bca-5b3b-45c6-87fc-7420d557c67f",
+          "text": "Everybody hear me?",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 1.96,
+          "end": 2.76,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "3f3f3f30-ea89-4600-9058-36f5af2ec67d",
+          "text": "Okay. So today, we are going to start chapter 2 of ruling.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 3.4299996999999998,
+          "end": 6.229999,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:03:05.147Z"
+  },
+  {
+    "id": "1762110186061-ero57b70h",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "84b22e91-77e5-4166-9ced-b4e6af4bb0eb",
+          "text": "Which deals with the topology of the real line.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 6.8999999999999995,
+          "end": 9.379999999999999,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:03:06.061Z"
+  },
+  {
+    "id": "1762110190466-ayj2kquuu",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "582033bc-4930-4fb1-acac-b1b8b4fed417",
+          "text": "The goal is to formalize what we mean by closeness,",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 10.25,
+          "end": 13.370000000000001,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:03:10.466Z"
+  },
+  {
+    "id": "1762110194008-e6ey4zn01",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "48798f2b-405d-4d4c-98a3-df2525c10153",
+          "text": "limit, and continuity.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 16.639998,
+          "end": 17.84,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:03:14.008Z"
+  },
+  {
+    "id": "1762110199312-4s2f4em2s",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "3d3064a6-751d-4405-a6b0-d3d1ecfe8cd0",
+          "text": "But in a language that works for all metric spaces, not just for real numbers.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 18.47,
+          "end": 21.99,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:03:19.312Z"
+  },
+  {
+    "id": "1762110202257-jf8tv9m8u",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "4556c4d4-e0d9-469d-b4b0-f6b5f91b075c",
+          "text": "Let's begin with the basic object, a metric space.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 22.939999999999998,
+          "end": 25.260001,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:03:22.257Z"
+  },
+  {
+    "id": "1762110211098-gjd2fkw99",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "43b15501-581f-4570-a4e9-29386a3727de",
+          "text": "Metric space is just a set x together with a function d, x joint x to r that assigns you every pair of points, a non",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 25.989998999999997,
+          "end": 33.57,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:03:31.098Z"
+  },
+  {
+    "id": "1762110215414-jh4qr8999",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "e84b254a-0d77-4b1d-bbf9-23a3b0f8e950",
+          "text": "a non negative number called their distance. This function d has 2 sets of",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 35.13,
+          "end": 38.28675675675676,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:03:35.414Z"
+  },
+  {
+    "id": "1762110216288-30rorvcbo",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "fbbc14ef-0061-4dea-9e61-496dfd07e205",
+          "text": "3 properties.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 38.67,
+          "end": 39.230000000000004,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:03:36.288Z"
+  },
+  {
+    "id": "1762110224361-59jblhjwd",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "b3e16bb2-7c61-49e5-9207-63ed450aea38",
+          "text": "DXY equals 0 if and only if x equal y. This is called refractivity.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 39.900000000000006,
+          "end": 45.580000000000005,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:03:44.361Z"
+  },
+  {
+    "id": "1762110227252-f14s9dgy7",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "5faa8382-fc77-499c-999e-16ab2ca38833",
+          "text": "DXY equal to DYX. This is called symmetry.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 46.36,
+          "end": 49.800000000000004,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:03:47.252Z"
+  },
+  {
+    "id": "1762110231277-of8wlihwg",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "c99eba45-abae-46a1-b217-f30efe0d5974",
+          "text": "The triangle inequality, DXZ smaller or",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 50.57,
+          "end": 52.89,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:03:51.277Z"
+  },
+  {
+    "id": "1762110240919-yw7iooow8",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "524c8721-d761-4f01-ba5b-e2b0ca962498",
+          "text": "DXY plus DYZ for all XYZ in x. If you keep those 3 axioms in mind, everything else following from them",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 53.99,
+          "end": 61.580000000000005,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:04:00.919Z"
+  },
+  {
+    "id": "1762110249919-nqzgr59cb",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "397b8514-e676-4606-9db2-43780811a9c4",
+          "text": "in the real line, of course, the standard metric is the x y equal to absolute value of d x minus y. Now once we have a notion of distance, we can",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 62.17000000000001,
+          "end": 71.93220689655172,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:04:09.920Z"
+  },
+  {
+    "id": "1762110253830-mpo5lnebq",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "e41f38ae-413d-44e4-829d-775940bcf3d1",
+          "text": "talk about neighborhood. Given a point x and a positive number epsilon,",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 72.52001,
+          "end": 75.83267619718309,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:04:13.830Z"
+  },
+  {
+    "id": "1762110258858-eqepl86gk",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "cc31f645-c0c8-4e1b-b5fd-f297a8727175",
+          "text": "we define the epsilon neighborhood of x to be all points y such that",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 76.69999999999999,
+          "end": 80.3,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:04:18.858Z"
+  },
+  {
+    "id": "1762110262199-9fa21ismy",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "8f87d3b6-53d3-4908-9a8c-6a1ec47fc1d1",
+          "text": "DXY is smaller than epsilon. So it's like an open interval centered",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 80.92,
+          "end": 84.19999999999999,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:04:22.199Z"
+  },
+  {
+    "id": "1762110265528-zrcwj9msa",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "a75f6204-8f6d-4bbc-aab5-85c956d4846d",
+          "text": "at x if we are on the real line. Then we define a set e sub",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 84.67999999999999,
+          "end": 88.06169491525422,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:04:25.528Z"
+  },
+  {
+    "id": "1762110269835-x49hmsv3n",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "b13690f1-8f7f-4685-bd54-823335e31546",
+          "text": "set x to be open if for every point x in e, there exists some",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 88.83999999999999,
+          "end": 93,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:04:29.835Z"
+  },
+  {
+    "id": "1762110279850-5serab1o5",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "77943942-3524-4f24-a693-3dadcd244a4f",
+          "text": "epsilon greater than 0 such that the epsilon neighborhood of x is entirely contained in e. That's a mouthful, but intuitively, it means no",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 93.69,
+          "end": 101.32427536231884,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:04:39.850Z"
+  },
+  {
+    "id": "1762110284068-gydvyoyml",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "222dc8fe-9cd1-4903-af8a-a7ca527c135a",
+          "text": "point of an open set lies right on the e boundary. You can always",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 101.88,
+          "end": 105.50337476923077,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:04:44.068Z"
+  },
+  {
+    "id": "1762110288056-1x71m7xl4",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "a1f1bd13-b188-478c-811d-f0b6cb8a889c",
+          "text": "wiggle a little bit as they'll say inside the set. Let's do an example.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 106.48000599999999,
+          "end": 110.10817895774649,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:04:48.056Z"
+  },
+  {
+    "id": "1762110303209-3gxgp5i63",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "39aad5dc-82e9-42fa-9091-02ca9bd17727",
+          "text": "The open interval 0 1 in r is open because for every point to x between 0 and 1, you can choose epsilon small enough so that x minus epsilon x plus epsilon, the interval stays inside",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 110.89999999999999,
+          "end": 125.46000000000001,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:05:03.209Z"
+  },
+  {
+    "id": "1762110308855-3bynjz4gs",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "d338491e-c80e-400e-b680-a7fd04e00cbe",
+          "text": "0 1 open interval, but the closed interval 0 1 is not open because",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 125.69,
+          "end": 130.49,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:05:08.855Z"
+  },
+  {
+    "id": "1762110313208-pu25fsyj8",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "3fb4da90-a442-4575-9015-e000f874871a",
+          "text": "at the end 0 and 1, there is no wiggle room. Any neighborhood",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 131.06,
+          "end": 134.1288524590164,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:05:13.208Z"
+  },
+  {
+    "id": "1762110315048-ou1m2ahra",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "88a4a9ab-139a-40ae-8214-e48755bc97a6",
+          "text": "around 0 containing negative numbers which are outside of this set.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 134.72999,
+          "end": 138.17,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:05:15.048Z"
+  },
+  {
+    "id": "1762110323917-8etfa8jgs",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "704c15a8-56e3-47e9-a2a9-e362fa7e3d15",
+          "text": "Next, let's talk about limit point. A point x is a limit point of a set e if every neighborhood of x contains at least",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 139.06001,
+          "end": 145.92001,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:05:23.917Z"
+  },
+  {
+    "id": "1762110327738-oxifd3kzz",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "c5b931e7-08c8-4e4c-a850-c0ee3b0d6a61",
+          "text": "1 point of e that is different from x itself. So if you can get arbitrary",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 146.42999,
+          "end": 150.35,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:05:27.738Z"
+  },
+  {
+    "id": "1762110335570-q0lphze6h",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "f45c101d-e858-4583-b6dd-9085d73606fd",
+          "text": "close to x with points from e, then x is a limit point of e. For example, the point in 0 1 is a limit point of",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 150.96,
+          "end": 158.99451219512193,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:05:35.570Z"
+  },
+  {
+    "id": "1762110338843-mcg9lvr7c",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "836fa6d9-5740-4cf1-9cf6-38661f1ec811",
+          "text": "the open set 0 1.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 159.58999,
+          "end": 161.26999999999998,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:05:38.843Z"
+  },
+  {
+    "id": "1762110343160-jb9h80gje",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "9ad7e09d-8ac8-450d-9034-331774645983",
+          "text": "Even 0 and 1 are limit points because you can approach them from the inside the interval.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 162.26,
+          "end": 165.54,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:05:43.160Z"
+  },
+  {
+    "id": "1762110347041-wctw1ydbo",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "d583058f-b3ef-4f5c-95c2-14a98e46d51d",
+          "text": "This set is closed if it contains all of its limit points.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 166.66,
+          "end": 169.29999999999998,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:05:47.041Z"
+  },
+  {
+    "id": "1762110351525-kirpvohwu",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "51cb605e-9832-4f23-abaf-fa104c93ecb8",
+          "text": "So 0 1 is closed because every sequence of",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 170.07999999999998,
+          "end": 174.16,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:05:51.525Z"
+  },
+  {
+    "id": "1762110356468-oaw5ml8h7",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "a33cf737-4679-49b3-a005-0e35d0ecf41e",
+          "text": "points inside it that converges has its limit inside the side as well.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 174.81,
+          "end": 178.81,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:05:56.468Z"
+  },
+  {
+    "id": "1762110398987-tn2lcumpn",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "b65dfa02-13b4-4a37-b04a-da13d9de2cf5",
+          "text": "Now assume that we have something else.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 218.41,
+          "end": 220.32999999999998,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:06:38.987Z"
+  },
+  {
+    "id": "1762110402514-r0m21l347",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "dab2875c-9286-4899-8a97-05ce0be41c76",
+          "text": "Suppose that we have another thing called the",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 221.50001,
+          "end": 224.38,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:06:42.514Z"
+  },
+  {
+    "id": "1762110405798-7h0xo9pn8",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "27884415-0b7e-4897-9466-c14c690350f7",
+          "text": "interior closure and bungee.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 226.94,
+          "end": 228.62,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:06:45.798Z"
+  },
+  {
+    "id": "1762110408978-tbibhvc52",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "c48ef71d-dba3-403c-8899-ab12a002f7a6",
+          "text": "The interior of a set",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 229.29,
+          "end": 230.97001,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:06:48.978Z"
+  },
+  {
+    "id": "1762110413944-w8ibck71e",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "f1c9ad42-7531-42a3-9c56-749a3ecb070c",
+          "text": "e is the set of all points of e that has a neighborhood",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 232.25999,
+          "end": 235.29999999999998,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:06:53.944Z"
+  },
+  {
+    "id": "1762110414761-aq51q5rm8",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "f12b8199-965b-4d28-b0cf-3dbce721c963",
+          "text": "entirely",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 236,
+          "end": 236.64,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:06:54.761Z"
+  },
+  {
+    "id": "1762111543903-hmlj2vcdz",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "00d88d0f-ce61-4441-9597-98fa05800cb3",
+          "text": "Okay. Can you hear me?",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 0,
+          "end": 1.6800001,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "6a9d338e-6c98-4366-8842-6a3c61e98cb6",
+          "text": "If you can hear me. And I'll try if you can hear me.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 16.4200001,
+          "end": 20.3400021,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:25:43.903Z"
+  },
+  {
+    "id": "1762111545674-ij6293uj3",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "c91dfef2-a0ea-45f6-888f-59a3c6a7b225",
+          "text": "Alright. Cool. So we'll start our electrodee.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 21.5300001,
+          "end": 24.730000099999998,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:25:45.674Z"
+  },
+  {
+    "id": "1762111577990-5nn3u4gwy",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "edd54f47-3fc1-4243-8cc3-72c342e97a49",
+          "text": "Okay.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 37.3699971,
+          "end": 38.0899981,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:26:17.990Z"
+  },
+  {
+    "id": "1762111578694-6pzb0hd7k",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "fe885f5f-4562-4204-ae7c-912b37efbbfd",
+          "text": "So now let's talk about the interior color and boundary",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 39.270000100000004,
+          "end": 42.870000100000006,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:26:18.694Z"
+  },
+  {
+    "id": "1762111579544-x0o3p3q65",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "5e2de77e-5e02-4577-8379-9919cc332065",
+          "text": "Those are the basic building blocks.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 43.5300001,
+          "end": 44.730000100000005,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:26:19.544Z"
+  },
+  {
+    "id": "1762111580407-ggv75b8zp",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "bd6ea632-5d14-4ceb-96ac-ac08af286295",
+          "text": "The interior of a set e",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 45.5899981,
+          "end": 47.270000100000004,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:26:20.407Z"
+  },
+  {
+    "id": "1762111581257-91clqxmqj",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "05ada3af-13ae-4346-9a44-7d047e7bb116",
+          "text": "is the set of all points of e that has a neighborhood entirely containing",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 48.130000100000004,
+          "end": 52.2900001,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:26:21.257Z"
+  },
+  {
+    "id": "1762111619017-rzbwfmja5",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "763e4e85-f41e-482d-b6cb-58895732fb95",
+          "text": "e. The closure of e is e together with all of its limit points.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 52.880000100000004,
+          "end": 57.3200001,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:26:59.017Z"
+  },
+  {
+    "id": "1762111685978-1ii8l0ds3",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "1ffef5fe-8d5c-47e8-9042-855a099e5d05",
+          "text": "And the boundary consists of all points,",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 58.5899981,
+          "end": 61.3899971,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:28:05.978Z"
+  },
+  {
+    "id": "1762111687034-p26b8ez3q",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "5cb34048-2e07-41c2-b44b-bbe1f0075caa",
+          "text": "where every neighborhood intersects both e and its complement.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 62.170000099999996,
+          "end": 66.3300001,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:28:07.034Z"
+  },
+  {
+    "id": "1762112918592-ribosygbn",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "cffe84c6-59df-485e-9c7d-0b0988527c1e",
+          "text": "Okay. Testing. Testing.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 0,
+          "end": 1.1199999999998909,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "ad7c03c0-c125-4dd1-a779-dca8a1817ece",
+          "text": "Now I'll start the test.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 1.740099999999984,
+          "end": 4.1400000000001,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "b04fffac-6945-498f-adbe-25edd3b2be9d",
+          "text": "The interior of a set e is the set",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 6.019999999999982,
+          "end": 9.460100000000011,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "a6b3bec0-88d6-42f5-8499-561972b2b9ac",
+          "text": "of e that has a neighborhood entirely contained in e.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 14.220100000000002,
+          "end": 17.500099999999975,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "c091eff0-58b3-4234-bdf7-57b6739a764f",
+          "text": "The closure of e is e together with all its limit points.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 18.580099999999902,
+          "end": 22.020099999999957,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "9736db4b-439d-4da3-989f-2e59b6067095",
+          "text": "The boundary consists of all points which every neighborhood intersects",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 22.88000000000011,
+          "end": 26.160100000000057,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "d43c5de1-5c3e-4a5e-b48e-ad6450739d2e",
+          "text": "both e and its complement.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 26.620100000000093,
+          "end": 27.740099999999984,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "b6424df2-a6c8-4e24-a1c1-85e5ad7682dd",
+          "text": "You can visualize it as this.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 28.610100000000102,
+          "end": 29.890100000000075,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "f9f6fabb-8f6b-4ca6-841f-b08387b38b69",
+          "text": "The interior is the inside.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 30.830200000000104,
+          "end": 32.190200000000004,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "2abe5601-9586-4e98-be6e-565e92ae3b6d",
+          "text": "Closure is the inside plus the edge.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 32.91020000000003,
+          "end": 34.8300999999999,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "721ec19a-33c4-45c5-b2ab-2500f3d13de1",
+          "text": "And the boundary is just the edge.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 35.46010000000001,
+          "end": 37.2201,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "460aa50d-77c3-4bd3-8317-b1cf9c3ad5ec",
+          "text": "Finally, rooting introduces compactness, and",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 38.1400000000001,
+          "end": 40.61999999999989,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "82beb40e-cedd-4383-8835-967d820df2a0",
+          "text": "and closeness later in this chapter.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 40.68010000000004,
+          "end": 43.7201,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "2fef0211-60d1-4204-b6e4-fb7fb27d6036",
+          "text": "But this motivates motivation starts here.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 44.5800999999999,
+          "end": 47.54009999999994,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "f78d0bdd-2cf0-4811-a70f-3cf87f8fa92a",
+          "text": "Compactness is the idea that you cannot run off to infinity",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 48.77009999999996,
+          "end": 52.210199999999986,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "aa110f94-1d0a-40c5-8bf4-605f4b5718ee",
+          "text": "the set.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 52.82020000000011,
+          "end": 53.300199999999904,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "4874b773-e082-4348-b448-0ebb40d5dfd5",
+          "text": "And connectedness means the set cannot be separated",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 54.000099999999975,
+          "end": 56.96010000000001,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "a996c5ea-c240-47d8-920e-4ed6217cd29a",
+          "text": "into 2 different open pieces.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 57.51999999999998,
+          "end": 59.68010000000004,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "ca20a21f-9086-421e-b998-52b5c207b212",
+          "text": "So",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 61.6400000000001,
+          "end": 61.96010000000001,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "bef1eeaa-b0e4-4952-a764-319b1915fb5b",
+          "text": "that's the basic topology you need to understand limits, continuity,",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 62.890100000000075,
+          "end": 66.9701,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "cc76e50c-73f4-4315-9edb-56b55bed3a21",
+          "text": "and eventually, the deeper theorems like the high end borrower theorem and uniform continuity.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 67.68020000000001,
+          "end": 72.00009999999997,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:48:38.592Z"
+  },
+  {
+    "id": "1762113148990-r2lmqqfd1",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "8d52fd0d-1ba3-4310-a8a9-bbd866f09d06",
+          "text": "Given the interior of a set,",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 121.88010000000008,
+          "end": 123.24009999999998,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "9855f4e3-7b22-41a3-8d0d-006ac265d31d",
+          "text": "it's the set of all points of e that has a neighborhood entirely contained in e.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 123.8601000000001,
+          "end": 128.1001000000001,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "d2e8da9f-fe4a-4bc6-8aba-e5952ee5be08",
+          "text": "The closure of e is e together with all its damage points.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 128.9801,
+          "end": 131.9402,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "ca148bc9-0457-4992-98b3-809da7d25342",
+          "text": "The boundary consists of all points where every neighborhood intersects",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 132.5902000000001,
+          "end": 135.9502,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "21b6327e-07ff-4f0e-8492-e73dc8c5401c",
+          "text": "both e and its components.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 136.51009999999997,
+          "end": 137.8701000000001,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "cd602b13-b11c-4723-b350-e34d8ffafee2",
+          "text": "You can visualize it as this.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 138.7101,
+          "end": 140.0700999999999,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "67e62cb7-178e-43d2-844b-f9066b9ca5b8",
+          "text": "The inter interior",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 141.0401999999999,
+          "end": 142.88010000000008,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "32b802ae-31fe-40e9-8c45-07cfa61b44f3",
+          "text": "is the inside.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 143.81009999999992,
+          "end": 144.8501000000001,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "df91592a-c0b4-414d-a0be-88da617ee767",
+          "text": "The closure is the inside plus",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 145.65010000000007,
+          "end": 147.9701,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "b8cf9adb-7cc0-453c-adf8-f6c7e379b0ad",
+          "text": "the edge, and the boundary is just the edge.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 149.04009999999994,
+          "end": 152,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "dde25800-86d0-49f3-8df0-97fafecde6ca",
+          "text": "And finally,",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 168.1101000000001,
+          "end": 168.91020000000003,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "152bfc4c-f592-4c7b-89a7-7b9199d7109e",
+          "text": "Rueden introduced compactness.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 169.78009999999995,
+          "end": 171.4601,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "1cb16e67-6f4c-4d0f-b108-255cf2d18eb4",
+          "text": "And connectedness",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 172.27009999999996,
+          "end": 173.7101,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "cc90b646-861b-4b4f-a309-9f00a83fd3e7",
+          "text": "in this chapter, but the motivation starts here.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 175.29009999999994,
+          "end": 177.93010000000004,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "04430006-0be2-4d86-909b-0aca85465697",
+          "text": "Compassionate is the idea that you cannot run",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 179.15010000000007,
+          "end": 181.4701,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "eb92bf96-3288-410e-a5ae-c88cbfb8cead",
+          "text": "off to infinity inside VSET.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 182.1001000000001,
+          "end": 183.70010000000002,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "253a07e7-c496-4831-87c0-bfb4b076fe06",
+          "text": "And connectedness means these",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 184.93010000000004,
+          "end": 186.69010000000003,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "cc49c856-32ea-42ec-81f7-b59e8d2192c2",
+          "text": "set cannot be splitted into 2 separate",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 187.1802,
+          "end": 190.5401999999999,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "d48e09e6-8b95-4aae-8567-84eec167b0c2",
+          "text": "open pieces.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 191.1500000000001,
+          "end": 191.8699999999999,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "90047fd5-5dfb-481f-9d17-20291ffa224c",
+          "text": "So that's basic topology you need to understand limits continuity.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 192.8501000000001,
+          "end": 196.76999999999998,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "6301d463-afa9-40b5-9046-dee1d5de7cc2",
+          "text": "And, eventually, the deeper theorems like the high end borrower theorem and the",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 197.6500000000001,
+          "end": 200.93010000000004,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "c4af2ecc-7817-4903-a37c-b3d8a82fcb0b",
+          "text": "continuity. So that's basically the chapter of Hu of Rutin.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 201.67020000000002,
+          "end": 205.13053898305085,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "bc122be2-101e-4862-a83f-bb4e44236d83",
+          "text": "And is that all probably.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 233.1300000000001,
+          "end": 234.94010000000003,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:52:28.990Z"
+  },
+  {
+    "id": "1762113409970-vvi1pl6kk",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "1fdae665-4340-42fb-a370-2a319fd1bcd6",
+          "text": "Okay. Can you hear me?",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 0,
+          "end": 1.1200001999999998,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:56:49.970Z"
+  },
+  {
+    "id": "1762113437777-vlmrjfo6c",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "023016e1-f701-4d1a-8ee3-bf65d2f5fbf3",
+          "text": "Okay. So I already hope you can hear me.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 0,
+          "end": 1.9999999999999991,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "c3341b14-9dda-48cc-9ea8-d6b92254607f",
+          "text": "And now let's talk about something else.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 2.449998999999999,
+          "end": 5.7299999999999995,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "906cb914-a104-461a-8b34-db3209e9dd22",
+          "text": "Something related to",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 6.89,
+          "end": 8.169999999999998,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "7917d208-aab4-49ae-985e-f882358f2994",
+          "text": "So let's start talking about the discrete time for your",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 25.44,
+          "end": 27.919999999999998,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "38f8b05a-c4c9-4e71-82f8-31c3120a1143",
+          "text": "series.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 28.51,
+          "end": 28.99,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "cc6fe7e9-63c2-430e-8483-71ca7243b90c",
+          "text": "So remember, DTFS applies to periodics, discrete",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 31.430002999999996,
+          "end": 34.150000000000006,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "cea0f6de-5416-441d-bba7-af3048a8113c",
+          "text": "discrete time signals. This means we are dealing with a signal x",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 34.400000000000006,
+          "end": 37.94375,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "33fdae3f-6f22-4b74-8f6d-eadd07cecd44",
+          "text": "n that repeats every n samples.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 38.660002000000006,
+          "end": 40.980002,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "9f6da732-18b5-40f2-88ea-dcdd3e458554",
+          "text": "X n plus n equal to x n for all n. What DTFS does is it represents that periodic signal",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 42.190000000000005,
+          "end": 49.349997,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "a9c42220-b03e-4ea1-bce8-bd9b109b260a",
+          "text": "and a way that some of complex exponents, basically, where they",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 49.940000000000005,
+          "end": 53.46,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "1c4778b0-94d0-4939-b4b6-123087f41a85",
+          "text": "the x n into its frequency component.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 54.52,
+          "end": 57.879999999999995,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "9e4ff2dc-7bf5-466a-a986-420acdefb3ad",
+          "text": "But only the discrete frequencies because the signal is periodic in",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 58.830004,
+          "end": 62.99000000000001,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "2ec3f558-95bf-438e-b3d0-b2c50a5c6d41",
+          "text": "time.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 63.56,
+          "end": 63.800005,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T19:57:17.777Z"
+  },
+  {
+    "id": "1762113994624-9x5db3zmk",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "18e3b545-ebed-4b02-a1bb-22855364249e",
+          "text": "Or so let's talk about the",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 0,
+          "end": 1.3600000000000003,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "efa323f0-8bfa-4001-a0d4-1bbc96db3019",
+          "text": "come to complete. I'm",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 2.2,
+          "end": 3.6399999999999997,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "622ed38c-0bad-40ec-8c65-5f477c4592c9",
+          "text": "4 or 6.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 3.8,
+          "end": 4.36,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "f0702e18-442e-4785-b794-909e6174d26a",
+          "text": "Series. DTFS. So reminder,",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 4.989999,
+          "end": 7.31,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "018e5b00-9b08-42f5-9efa-6e2aa94938d1",
+          "text": "DTFS applied to periodic discrete time 6 That means we're dealing with a signal",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 8.090001,
+          "end": 13.549999,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "8b66ae2e-b2c8-432d-b7e0-3d2d5d1fdd24",
+          "text": "SXN that's repeated every",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 14.870000000000001,
+          "end": 17.91,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:06:34.624Z"
+  },
+  {
+    "id": "1762113995402-zg9407in7",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "db5c88e8-df16-491c-9a27-a771dda148a4",
+          "text": "post.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 18.650000000000002,
+          "end": 18.889999,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:06:35.402Z"
+  },
+  {
+    "id": "1762113999344-nn4s50yp4",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "7bae6e0e-8a4e-488f-9aa8-a328e50afe7e",
+          "text": "X n plus big n equal to x n for all n.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 20.200000000000003,
+          "end": 23.559999,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:06:39.344Z"
+  },
+  {
+    "id": "1762114007166-zhvxustar",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "8b779a13-a702-43fe-8d4b-0e2b8e0246c8",
+          "text": "What DTFS does is represent the periodic theory, so make our weighted sum of",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 24.290000000000003,
+          "end": 28.450002,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:06:47.166Z"
+  },
+  {
+    "id": "1762114008956-0d2fkhj9r",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "2feeb2f8-280b-4198-85e7-0dda0b775f37",
+          "text": "complex exponents. Basically, we're decomposing x n into its frequency",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 29.070000000000004,
+          "end": 33.40714581428571,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:06:48.956Z"
+  },
+  {
+    "id": "1762114015261-bkd3jnel2",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "c330c34b-9cf8-4d73-9630-8381702dfff2",
+          "text": "but only at discrete frequencies because the signal is periodic in time.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 34.919999999999995,
+          "end": 38.519999999999996,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:06:55.261Z"
+  },
+  {
+    "id": "1762114018257-dnrjnywj0",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "af0f1bd4-7bd4-464e-bd52-06c4fb51164a",
+          "text": "Mathematically, the syncestrics Alright. Well, in general for the",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 39.470003,
+          "end": 42.589999999999996,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:06:58.257Z"
+  },
+  {
+    "id": "1762114068849-fg7qwqu6v",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "2bf775e7-c806-4cae-a013-4a344789b20c",
+          "text": "Okay. So now it will start to save it to DTFS dot m d. So let's talk about the discrete time for your series, DTF So remember, DTFS applied to periodic discrete time",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 80.059995,
+          "end": 90.6,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:07:48.849Z"
+  },
+  {
+    "id": "1762114072440-ytcfg30oc",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "49a0bca6-7e01-48ae-ba8f-7d16cbcba0c6",
+          "text": "signals. This means we're dealing with a signal x n that repeats every end samples.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 91.14,
+          "end": 96.32675192771084,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:07:52.440Z"
+  },
+  {
+    "id": "1762114077739-jhwy0t69w",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "51f5fa80-3b6a-48c7-aa5c-2bfb7bb00880",
+          "text": "N plus big n equal to x n for all",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 97.169996,
+          "end": 100.61,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:07:57.739Z"
+  },
+  {
+    "id": "1762114085546-ptgldlm6g",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "adcee185-36b2-4a0a-bb0d-98fa2e7de2e8",
+          "text": "n. What DTFS does is represent their periodic 6 signal as weighted sum of complex components.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 101.05,
+          "end": 106.9261240860215,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:08:05.546Z"
+  },
+  {
+    "id": "1762114093313-0ui38dhkb",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "ef16c1cd-2a60-4b3c-8f71-20d36855816f",
+          "text": "Exponent 0. Basically, we are decomposing x n",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 109,
+          "end": 111.88,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:08:13.313Z"
+  },
+  {
+    "id": "1762114405691-n3de5zax3",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "0ded1649-d8fb-4fd5-9080-eac31982b8ff",
+          "text": "Take care of the all environment dependencies. So for Omni, Anthropic, Deepgram, those",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 0,
+          "end": 4.319999999999993,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "52544be1-d65d-4a80-95f9-231996c9a09a",
+          "text": "secretly, and then when everything is live and running, it just works.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 8.410003999999986,
+          "end": 11.209999999999994,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "627e1ee9-b19b-4f44-b0ed-8f399bd8cba6",
+          "text": "So I just pull it all",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 12.019999999999996,
+          "end": 13.139999999999986,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "59163a38-3b6a-4024-a211-34270f4dc3c4",
+          "text": "through. What program is that?",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 14.059999999999988,
+          "end": 15.297333333333322,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:13:25.691Z"
+  },
+  {
+    "id": "1762114485433-35jtk6gl6",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "56675771-cab7-449b-8cc6-2dddecca8c62",
+          "text": "How much does Omi make?",
+          "speaker": "SPEAKER_2",
+          "speaker_id": 2,
+          "is_user": false,
+          "person_id": null,
+          "start": 127.18,
+          "end": 128.85999999999999,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "29c8fd3a-bbc6-4606-9807-4a0226cfa64f",
+          "text": "Hundred something per month, house doors from your",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 130.47999,
+          "end": 133.68,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:14:45.433Z"
+  },
+  {
+    "id": "1762114802695-s6pawygoo",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "43ddeca6-5f3d-470d-ad94-603e04fa718f",
+          "text": "You actually don't need the cable post.",
+          "speaker": "SPEAKER_3",
+          "speaker_id": 3,
+          "is_user": false,
+          "person_id": null,
+          "start": 0,
+          "end": 1.2800499999999602,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:20:02.695Z"
+  },
+  {
+    "id": "1762114970144-zwlmuvfdq",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "42e7f29b-fdfd-4193-9550-5bd1b1c538c7",
+          "text": "Stephanie?",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 0,
+          "end": 0.5600000000000023,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:22:50.144Z"
+  },
+  {
+    "id": "1762114971184-951ogxnla",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "3d2c96ed-7e31-4c18-89f8-e5afd6d29d52",
+          "text": "Stephanie? Stephanie. Mhmm. I'm Stephanie. Yeah. Stephanie. Stephanie. Okay. Yeah.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 0.7000000000000028,
+          "end": 4.859999999999999,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:22:51.184Z"
+  },
+  {
+    "id": "1762114988696-wqrg3k43n",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "30449d22-a8cd-418c-8129-f6853eeeec84",
+          "text": "How do I connect? Oh, wait. Just go to go to your airplane settings.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 21.08,
+          "end": 23.960000000000008,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "4923ed29-3f74-4696-84f9-cfa13f7c39a6",
+          "text": "Just go to airplane.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 26.200000000000003,
+          "end": 27.08,
+          "translations": [],
+          "speech_profile_processed": true
+        },
+        {
+          "id": "f0cd6983-672d-4e41-ae82-b7ab2c47b779",
+          "text": "Just go here.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 28.040000000000006,
+          "end": 30.759996,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:23:08.696Z"
+  },
+  {
+    "id": "1762114989402-sxi59wya0",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "833fbce0-930d-49f5-9ee3-1e5fd8981ac9",
+          "text": "Yeah.",
+          "speaker": "SPEAKER_0",
+          "speaker_id": 0,
+          "is_user": false,
+          "person_id": null,
+          "start": 31.980005000000006,
+          "end": 32.380005999999995,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:23:09.402Z"
+  },
+  {
+    "id": "1762114991508-6g58xveex",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "aa4426a7-0ee7-464a-8152-cf0e659d6bfa",
+          "text": "Spaceship. Oh.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 34.61,
+          "end": 35.649995000000004,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:23:11.509Z"
+  },
+  {
+    "id": "1762115001607-ige58mkpu",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "1faa0d07-d296-47a8-8b38-eeffcca0397f",
+          "text": "9137.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 43.609994,
+          "end": 44.730000000000004,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:23:21.607Z"
+  },
+  {
+    "id": "1762115067420-tdkpzit3t",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "7fb6c8e4-1891-4f14-8850-28f49a000f47",
+          "text": "Okay. I thought I would be later. Yeah.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 5.430000000000007,
+          "end": 8.950000000000003,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:24:27.420Z"
+  },
+  {
+    "id": "1762115068167-ewjawymp1",
+    "data": {
+      "session_id": "OChSFtfA6UNlOItVpS7VLlNHfJ73",
+      "segments": [
+        {
+          "id": "bea20f2d-a059-46ba-9ed7-de7245fe10f0",
+          "text": "Okay.",
+          "speaker": "SPEAKER_1",
+          "speaker_id": 1,
+          "is_user": false,
+          "person_id": null,
+          "start": 11.539995000000005,
+          "end": 13.060000000000002,
+          "translations": [],
+          "speech_profile_processed": true
+        }
+      ]
+    },
+    "receivedAt": "2025-11-02T20:24:28.167Z"
+  }
+]

@@ -1,0 +1,58 @@
+You are a note taking expert. Here is a part of audio processed, so it might contain small errors on recognizing what the word is. If it does not make sense to you, maybe search for some word of similar pronunciation that fits in the topic. 
+
+
+USER'S NOTE-TAKING STYLE (follow this style when creating notes):
+Core Conventions
+
+* I use Markdown for structure:
+
+  * Headers (##, ###, ####) indicate hierarchy.
+  * Each note usually starts with metadata like:
+    2025-MM-DD HH:MM
+    Status: ...
+    Tags: #topic #subtopic
+* I use "> " for emphasis or reflections (like side comments, quotes, or conclusions).
+* "==highlighted text==" marks something important or conceptually central.
+
+Math Formatting
+
+* Math is always written in LaTeX between double dollar signs (`$$`), not inline math mode.
+  Example:
+  $$ f(x) = \int_a^b g(t) dt $$
+* I often use:
+  $\implies, \forall, \exists, \lVert \rVert, \mathbb{R}, \vec{v}$.
+  Lowercase variables for functions and signals (like x[n], f(t)).
+  Square brackets [n] for discrete time signals. Uppercase variables for sets.
+* When I define terms, they’ll look like:
+  Definition:
+  $$ x[n] = \sin(2π f_0 nT) $$
+
+Code and Technical Blocks
+
+* Code snippets use triple backticks with a language label, like:
+
+  ```python
+  def f(x):
+      return x**2
+  ```
+
+  Replace "python" with "curl", "c++", etc. depending on context.
+  These are not equations even if they look algebraic.
+* When I write pseudocode, I might omit the language label entirely.
+
+Tone and Style
+
+* My notes are semi-formal:
+  I mix academic explanations with personal reactions (like “LMAO”, “wait what??”, “so this means…”).
+  I often explain reasoning step-by-step.
+  I might leave unfinished thoughts if the transcript ends mid-sentence — treat them as incomplete, not errors.
+
+---
+
+IGNORE unfinished text if it seems like it is cut off from a previous batch that was processed, and if it does not conclude within this text, try to comprehend what it means from next one, and only add the next one's part that can be connected to the unfinished sentence. Also check from last styled piece of styled note processed by LLM, do not double process because you will append the text to where the last one processed ends.
+
+Last one processed: "Given the extremely brief and seemingly random text \"9137.\", there isn't enough context to generate meaningful notes. I will not create a note for this fragment."
+Main text: "Okay. I thought I would be later. Yeah. Okay."
+Next one to process: ""
+
+What will you output? ONLY PROCESS THE PIECE OF NOTE YOU WILL TAKE WITH THIS TEXT (in markdown form) following the user's note-taking style above. DO NOT OVER PROCESS.
