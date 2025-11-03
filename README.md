@@ -1,94 +1,196 @@
-# Obsidian Sample Plugin
+# Live Noter - AI-Powered Real-time Note Taking for Obsidian
 
-This is a sample plugin for Obsidian (https://obsidian.md).
+Live Noter is an Obsidian plugin that transforms real-time transcriptions into well-formatted, styled notes using AI. It integrates with external transcription services (like [Omi](https://omi.me)) to automatically process audio content and generate notes in your personal note-taking style.
 
-This project uses TypeScript to provide type checking and documentation.
-The repo depends on the latest plugin API (obsidian.d.ts) in TypeScript Definition format, which contains TSDoc comments describing what it does.
+## Features
 
-This sample plugin demonstrates some of the basic functionality the plugin API can do.
-- Adds a ribbon icon, which shows a Notice when clicked.
-- Adds a command "Open Sample Modal" which opens a Modal.
-- Adds a plugin setting tab to the settings page.
-- Registers a global click event and output 'click' to the console.
-- Registers a global interval which logs 'setInterval' to the console.
+- **Real-time transcription processing** via webhooks
+- **AI-powered note generation** using Anthropic Claude
+- **Personal style learning** from your existing notes
+- **Smart file targeting** - saves notes to your current active file or fallback
+- **Automated processing** every 10s (or your modified number of seconds) during recording sessions
+- **Live preview** of styled notes in settings
 
-## First time developing plugins?
+## 🚀 Quick Start
 
-Quick starting guide for new plugin devs:
+### Prerequisites
 
-- Check if [someone already developed a plugin for what you want](https://obsidian.md/plugins)! There might be an existing plugin similar enough that you can partner up with.
-- Make a copy of this repo as a template with the "Use this template" button (login to GitHub if you don't see it).
-- Clone your repo to a local development folder. For convenience, you can place this folder in your `.obsidian/plugins/your-plugin-name` folder.
-- Install NodeJS, then run `npm i` in the command line under your repo folder.
-- Run `npm run dev` to compile your plugin from `main.ts` to `main.js`.
-- Make changes to `main.ts` (or create new `.ts` files). Those changes should be automatically compiled into `main.js`.
-- Reload Obsidian to load the new version of your plugin.
-- Enable plugin in settings window.
-- For updates to the Obsidian API run `npm update` in the command line under your repo folder.
+- Node.js v16+ (`node --version`)
+- Obsidian v0.15.0+
+- Anthropic API key ([Get one here](https://console.anthropic.com/))
 
-## Releasing new releases
+### Installation
 
-- Update your `manifest.json` with your new version number, such as `1.0.1`, and the minimum Obsidian version required for your latest release.
-- Update your `versions.json` file with `"new-plugin-version": "minimum-obsidian-version"` so older versions of Obsidian can download an older version of your plugin that's compatible.
-- Create new GitHub release using your new version number as the "Tag version". Use the exact version number, don't include a prefix `v`. See here for an example: https://github.com/obsidianmd/obsidian-sample-plugin/releases
-- Upload the files `manifest.json`, `main.js`, `styles.css` as binary attachments. Note: The manifest.json file must be in two places, first the root path of your repository and also in the release.
-- Publish the release.
+1. **Clone the repository** into your Obsidian plugins folder:
+   ```bash
+   cd /path/to/your/vault/.obsidian/plugins/
+   git clone https://github.com/suniyao/omi-obsidian-live-noter.git
+   cd omi-obsidian-live-noter
+   ```
 
-> You can simplify the version bump process by running `npm version patch`, `npm version minor` or `npm version major` after updating `minAppVersion` manually in `manifest.json`.
-> The command will bump version in `manifest.json` and `package.json`, and add the entry for the new version to `versions.json`
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-## Adding your plugin to the community plugin list
+3. **Set up your API key**:
+   ```bash
+   cp .env.example .env
+   # Edit .env and add your Anthropic API key:
+   # ANTHROPIC_API_KEY=sk-ant-api03-your-actual-api-key-here
+   ```
 
-- Check the [plugin guidelines](https://docs.obsidian.md/Plugins/Releasing/Plugin+guidelines).
-- Publish an initial version.
-- Make sure you have a `README.md` file in the root of your repo.
-- Make a pull request at https://github.com/obsidianmd/obsidian-releases to add your plugin.
+4. **Build the plugin**:
+   ```bash
+   npm run build
+   ```
 
-## How to use
+5. **Enable the plugin** in Obsidian:
+   - Go to Settings → Community plugins
+   - Refresh and enable "Live Noter"
 
-- Clone this repo.
-- Make sure your NodeJS is at least v16 (`node --version`).
-- `npm i` or `yarn` to install dependencies.
-- `npm run dev` to start compilation in watch mode.
+## How to Use
 
-## Manually installing the plugin
+### Basic Workflow
 
-- Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/your-plugin-id/`.
+1. **Learn your note-taking style** (one-time setup):
+   - Go to Settings → Live Noter
+   - Set your sample notes folder path (optional)
+   - Click "Learn note-taking style"
+   - The AI will analyze your existing notes and save your style
 
-## Improve code quality with eslint (optional)
-- [ESLint](https://eslint.org/) is a tool that analyzes your code to quickly find problems. You can run ESLint against your plugin to find common bugs and ways to improve your code. 
-- To use eslint with this project, make sure to install eslint from terminal:
-  - `npm install -g eslint`
-- To use eslint to analyze this project use this command:
-  - `eslint main.ts`
-  - eslint will then create a report with suggestions for code improvement by file and line number.
-- If your source code is in a folder, such as `src`, you can use eslint with this command to analyze all files in that folder:
-  - `eslint ./src/`
+2. **Start a recording session**:
+   - Open the file where you want notes saved (or leave empty for `final_notes.md`)
+   - Click the microphone icon in the ribbon, or
+   - Use the command palette: "Start Note Taking"
 
-## Funding URL
+3. **Send transcriptions** to the webhook:
+   ```bash
+   # Start the webhook server
+   cd /path/to/vault/.obsidian/plugins/live-noter
+   node utils/server.js
+   ```
+   
+   - Server runs on `http://localhost:3000`
+   - Send POST requests to `/webhook` with transcription data
 
-You can include funding URLs where people who use your plugin can financially support it.
+4. **Stop recording**:
+   - Click the microphone icon again
+   - Final processing will complete automatically
 
-The simple way is to set the `fundingUrl` field to your link in your `manifest.json` file:
+### Integration with External Apps
 
+#### Omi Integration
+If you're using [Omi](https://omi.me) for transcription:
+
+1. Set up ngrok for public webhook access:
+   ```bash
+   ngrok http 3000
+   ```
+
+2. Configure Omi to send webhooks to your ngrok URL:
+   ```
+   https://your-ngrok-url.ngrok-free.app/webhook
+   ```
+
+#### Custom Integration
+Send POST requests to `/webhook` with this format:
 ```json
 {
-    "fundingUrl": "https://buymeacoffee.com"
+  "text": "Your transcribed text here",
+  "segments": [
+    {"text": "Segment 1"},
+    {"text": "Segment 2"}
+  ]
 }
 ```
 
-If you have multiple URLs, you can also do:
+## Configuration
 
-```json
-{
-    "fundingUrl": {
-        "Buy Me a Coffee": "https://buymeacoffee.com",
-        "GitHub Sponsor": "https://github.com/sponsors",
-        "Patreon": "https://www.patreon.com/"
-    }
-}
+### Plugin Settings
+
+- **Sample notes folder**: Path to analyze for learning your style (e.g., "Notes/Physics")
+- **Anthropic API Key**: Your Claude API key (can also be set via .env file)
+- **Preview text**: Test area to preview how your style will be applied
+
+### Environment Variables
+
+Create a `.env` file in the plugin directory:
+```bash
+ANTHROPIC_API_KEY = "sk-ant-api03-your-key-here"
 ```
 
-## API Documentation
+## Development
 
-See https://github.com/obsidianmd/obsidian-api
+### Project Structure
+
+```
+live-noter/
+├── main.ts                 # Main plugin entry point
+├── utils/
+│   ├── server.js          # Webhook server
+│   ├── processor.js       # AI processing logic
+│   ├── webhook-manager.js # Data storage management
+│   ├── styleAPI.ts        # Style learning interface
+│   ├── learn_style.py     # Python style analysis
+│   └── llm_wrapper.py     # Anthropic API wrapper
+├── .env.example           # Environment template
+└── package.json           # Dependencies
+```
+
+### Development Commands
+
+```bash
+npm run dev      # Watch mode compilation with hot reload (if you are developer)
+npm run build    # Production build
+npm install      # Install dependencies
+```
+
+### Running the Webhook Server
+
+```bash
+# Development (with auto-restart)
+cd utils && node server.js
+
+# Production (background)
+cd utils && nohup node server.js > server.log 2>&1 &
+```
+
+## Troubleshooting
+
+### Common Issues
+
+1. **"ANTHROPIC_API_KEY not found"**
+   - Make sure your `.env` file exists with the correct API key
+   - Or set the API key in plugin settings
+
+2. **Webhook server not responding**
+   - Check if server is running: `lsof -i :3000`
+   - Restart with: `cd utils && node server.js`
+
+3. **Notes not saving to current file**
+   - Ensure you have a file open when starting recording
+   - Check console for file path detection logs
+
+4. **Style learning fails**
+   - Ensure Python is installed and accessible
+   - Check that sample notes folder exists and contains .md files
+
+### Debug Logs
+
+Check these files for debugging:
+- `last_prompt.txt` - Last AI prompt sent
+- `processor_state.json` - Processing state
+- `webhooks.json` - Received webhook data
+- `processed.json` - Processing tracking
+
+## Contributing :)
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b my-new-feature`
+3. Commit changes: `git commit -am 'Add some feature'`
+4. Push to branch: `git push origin my-new-feature`
+5. Submit a pull request
+
+
+**Note**: This plugin requires an active internet connection and Anthropic API access for AI processing.
